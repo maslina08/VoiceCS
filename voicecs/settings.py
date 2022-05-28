@@ -119,10 +119,10 @@ USE_L10N = True
 USE_TZ = True
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3030',
+    'http://localhost:8000',
     'https://maslina.pythonanywhere.com',
     'https://maslina.pythonanywhere.com/api/phones/',
     'https://maslina.pythonanywhere.com/api/phones.json'
